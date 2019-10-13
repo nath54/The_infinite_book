@@ -11,26 +11,22 @@ button{
 	font-size:40px;
 }
 
-header{
-	border:2px solid black;
-	font-size:40px;
-	text-align:center;
-	background-color:rgb(100,100,100);
-}
-
-div{
-	font-size:30px;
-	margin-left:10px;
-	margin-right:10p;
+body{
+	font-size:25px;
+	margin-left:50px;
+	margin-right:100px;
 	text-align:center;
 	background-image:url(page.jpg);
 	background-repeat:no-repeat;
-	width:99%;
-	background-size:cover;
+	width:90%;
+	background-size:100%;
+	word-wrap: break-word;
 }
 
-p{
-    width:80%;
+header{
+	border:2px solid black;
+	font-size:40px;
+	background-color:rgb(100,100,100);
+	margin-left:0px;
+	margin-right:0px;
 }
-
-
