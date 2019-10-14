@@ -8,11 +8,17 @@
 		<button onClick="generatePage();">Generer</button>
 	</header>
 	<body>
-	  <div>
 		<h2 id="titre">Page n°1 du livre</h2>
 		<p id="texte"></p>
 		<script src="seedrandom/seedrandom.js" type="text/javascript"></script>
 		<script src="main.js" type="text/javascript"></script>
+	  <div>
+        <ul>
+		  <li>Caractere a rechercher : <input class="re" id="car" value=""></input></li>
+		  <li>De la page <input class="re" id="pag1" value="0"></input></li>
+		  <li>A la page <input class="re" id="pag2" value="1000000"></input></li>
+		  <li><button class="re" onClick="rechercher();">Rechercher</button></li>
+        </ul>
 	  </div>
 	</body>
 </html>
